@@ -14,7 +14,7 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto px-4 flex flex-col items-start">
         <div className="text-left"> 
         <h2 className="text-3xl sm:text-5xl font-bold" style={{ color: "purple-70" }}>
-            Hola! I am <span style={{ color: "#6A0DED" }}>Sakshi Bhatia</span>.
+            Hi! I am <span style={{ color: "#6A0DED" }}>Sakshi Bhatia</span>.
           </h2>
           <p className="text-gray-500 py-4 max-w-md text-xl font-bold">
             I'm a Full Stack Web Developer.
