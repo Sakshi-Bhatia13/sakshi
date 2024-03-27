@@ -5,7 +5,6 @@ const Project = () => {
   const [showTransition, setShowTransition] = useState(false);
 
   useEffect(() => {
-    // Triggering the transition effect after a short delay to allow time for rendering
     const timer = setTimeout(() => {
       setShowTransition(true);
     }, 100);

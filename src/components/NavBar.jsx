@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import NavLinks from "./NavLinks";
 
-const NavBar = () => {
+const NavBar = ({ setActiveComponent }) => {
   const [nav, setNav] = useState(false);
 
   const links = [
@@ -27,8 +27,8 @@ const NavBar = () => {
       link: "experience",
     },
     {
-      id :6,
-      link : "contact"
+      id: 6,
+      link: "contact"
     }
   ];
 
@@ -41,33 +41,38 @@ const NavBar = () => {
       <div className="md:hidden">
         <div
           onClick={() => setNav(!nav)}
-          className="cursor-pointer pr-4 z-10 text-gray-500"
+          className="cursor-pointer pr-4 z-10"
         >
           {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
         </div>
-        {nav && (
-          <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
-            {links.map(({ id, link }) => (
-              <NavLinks
-                key={id}
-                link={link}
-                className="px-4 cursor-pointer capitalize py-6 text-4xl"
-                onClick={() => setNav(!nav)}
-              />
-            ))}
-          </ul>
-        )}
       </div>
 
-      <ul className="hidden md:flex">
+      {nav && (
+        <ul className="flex flex-col justify-center items-center md:hidden absolute top-0 left-0 w-full h-screen bg-black ">
+          {links.map(({ id, link }) => (
+            <NavLinks
+              key={id}
+              link={link}
+              className="px-4 cursor-pointer capitalize py-6 text-3xl hover:text-purple-600 hover:underline hover:font-semibold hover:text-5xl"
+              onClick={() => {
+                setActiveComponent(link);
+                setNav(false);
+              }}
+            />
+          ))}
+        </ul>
+      )}
+
+      <div className="hidden md:flex justify-center items-center list-none">
         {links.map(({ id, link }) => (
           <NavLinks
             key={id}
             link={link}
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
+            className="px-4 cursor-pointer capitalize font-medium font-family- text-white transition duration-300 hover:text-purple-600 hover:underline transform hover:scale-90 hover:text-4xl"
+            onClick={() => setActiveComponent(link)} 
           />
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

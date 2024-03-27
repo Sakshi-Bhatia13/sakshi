@@ -24,10 +24,10 @@ const Experience = () => {
 
   return (
     <Element name="experience"> 
-      <div className="experience-section bg-gradient-to-b from-gray-800 to-black w-full min-h-screen text-white "
+      <div className="experience-section w-full min-h-screen text-white "
       style={{ backgroundImage: `url(${bg6})` }} >
         <div className="max-w-screen-lg mx-auto p-4">
-          <h2 className="text-4xl font-bold border-b-4 border-gray-500 pb-2">Experience</h2>
+          <h2 className="text-4xl font-bold border-b-4 border-gray-500 pb-2 inline relative">Experience</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
             {experiences.map(experience => (
               <div key={experience.id} className="shadow-md bg-gray-900 rounded-lg overflow-hidden flex justify-center items-center">
