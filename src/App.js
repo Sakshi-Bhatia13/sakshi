@@ -15,9 +15,9 @@ function App() {
     <div>
       <Navbar setActiveComponent={setActiveComponent} />
       {activeComponent === "home" && <Home />}
-      {activeComponent === "about" && <About />}
+      {/* {activeComponent === "about" && <About />} */}
       {activeComponent === "technologies" && <Technologies />}
-      {activeComponent === "projects" && <Projects />}
+      {activeComponent === "project" && <Projects />}
       {activeComponent === "contact" && <Contact />}
       {activeComponent === "experience" && <ExperienceSection />}
       <Footer/>
