@@ -47,7 +47,7 @@ const Technologies = () => {
       <div className="w-full min-h-screen" style={{ backgroundImage: `url(${bg6})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full font-semibold text-white" >
           <div className="mt-20 pb-4">
-            <h3 className="text-4xl text-purple-600 border-b-4 border-purple-700 font-bold inline-block ">Technologies</h3>
+            <h3 className="text-4xl text-purple-100 border-b-4 border-purple-700 font-bold inline-block ">Technologies</h3>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 text-center py-8 px-4 sm:px-0">
             {techs.map(({ id, src, title, style }) => (

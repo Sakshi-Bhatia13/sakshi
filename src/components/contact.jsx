@@ -9,7 +9,7 @@ const Contact = () => {
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full" >
       <div className="pb-8 mt-20"> 
-  <h3 className="text-4xl font-bold text-purple-600 border-b-4 border-purple-700 inline-block">
+  <h3 className="text-4xl font-bold text-purple-100 border-b-4 border-purple-700 inline-block">
     Contact
   </h3>
 </div>
