@@ -1,4 +1,3 @@
-// Home1.jsx
 import React from "react";
 import { HiDownload } from "react-icons/hi";
 import bgImage from "../img/bg5.png";
@@ -21,7 +20,7 @@ const Home1 = () => {
           </p>
           <div>
             <a
-              href="/path/to/resume.pdf"
+              href=""
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-400 to-purple-900  cursor-pointer"
             >
               Download Resume

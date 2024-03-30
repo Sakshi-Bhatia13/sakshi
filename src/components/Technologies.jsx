@@ -44,16 +44,16 @@ const Technologies = () => {
 
   return (
     <Element name="technologies"> 
-      <div className="w-full min-h-screen" style={{ backgroundImage: `url(${bg6})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <div className="w-full min-h-screen" > 
         <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-center text-white" >
           <div className="mt-20 pb-4">
-            <h3 className="text-4xl text-purple-100  inline-block ">Technologies I Know</h3>
+            <h3 className="text-4xl text-purple-950  inline-block ">Technologies I Know</h3>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8 text-center py-8 px-4 sm:px-0">
             {techs.map(({ id, src, title, style }) => (
               <div key={id} className={`flex flex-col items-center shadow-md hover:scale-125 duration-500 py-2 rounded-lg ${style}`}>
                 <img src={src} alt={title} className="w-20 mx-auto h-20 mb-2" />
-                <p className="mt-2 text-sm">{title}</p>
+                <p className="mt-2 text-sm text-black">{title}</p>
               </div>
             ))}
           </div>

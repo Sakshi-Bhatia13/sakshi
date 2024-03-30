@@ -25,23 +25,23 @@ const Experience = () => {
 
   return (
       <Element name="experience"> 
-        <div className="experience-section w-full min-h-screen" style={{ backgroundImage: `url(${bg6})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="experience-section w-full min-h-screen">
           <div className="max-w-screen-lg mx-auto p-4 ">
             <div className="pb-4 mt-20 text-center"> 
-              <h3 className="text-4xl text-purple-100  inline-block">
+              <h3 className="text-4xl text-purple-950 inline-block">
                 Experiences
               </h3>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10">
               {experiences.map(experience => (
-                <div key={experience.id} className="shadow-md shadow-purple-300 rounded-lg overflow-hidden hover:scale-110 hover:duration-300">
+                <div key={experience.id} className="shadow-md shadow-purple-950 rounded-lg overflow-hidden hover:scale-110 hover:duration-300 hover:bg-purple-200 transition duration-300 ease-in-out ">
                   <div className="p-4 flex flex-col justify-center items-center">
                     <img src={experience.organization === "Rotaract Club of Youth" ? rotaractImage : ieeeImage} alt={experience.organization} className="w-40 h-40 object-cover rounded-full mb-4 sm:mb-0 sm:mr-4" />
                     <div>
-                    <p className="text-purple-400 text-2xl  mb-1">{experience.organization}</p>
-                      <h3 className="text-xl text-purple-400  mb-1">{experience.position}</h3>
+                    <p className="text-purple-700 text-2xl  mb-1">{experience.organization}</p>
+                      <h3 className="text-xl text-purple-500  mb-1">{experience.position}</h3>
                       <p className="text-gray-600 italic font-semibold mb-1">{experience.timeline}</p>
-                      <p className="text-white">{experience.content}</p>
+                      <p className="text-black">{experience.content}</p>
                     </div>
                   </div>
                 </div>

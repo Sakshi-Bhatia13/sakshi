@@ -25,18 +25,18 @@ const Project = () => {
 
   return (
     <Element name = 'projects'>
-    <div className="w-full" style={{ backgroundImage: `url(${bg6})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <div className="w-full">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-center">
         <div className="pb-8">
-          <h1 className="text-4xl  text-purple-100  inline-block mt-20">Projects I Made</h1>
+          <h1 className="text-4xl  text-purple-950  inline-block mt-20">Projects I Made</h1>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
           {projects.map(({ id, name, description, githubLink }) => (
-            <div key={id} className=" text-white shadow-md rounded-lg shadow-purple-300 hover:scale-110 hover:duration-300">
+            <div key={id} className=" text-white shadow-md rounded-lg shadow-purple-950 hover:scale-110 hover:duration-300  hover:bg-purple-200 transition duration-300 ease-in-out">
               <div className="p-4">
-                <p className="text-2xl text-purple-400  mb-2">{name}</p>
-                <p className="text-lg mb-2">{description}</p>
+                <p className="text-2xl text-purple-700  mb-2">{name}</p>
+                <p className="text-lg mb-2 text-black">{description}</p>
                 <div className="flex justify-center">
                   <a href={githubLink} target="_blank" rel="noopener noreferrer" className="w-full px-6 py-3 m-4 duration-200 hover:scale-105 bg-purple-950 text-white rounded-md text-center">
                     Code

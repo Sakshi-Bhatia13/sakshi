@@ -1,6 +1,7 @@
 import React from "react";
 import myImg from "../img/img2.jpg";
 import Tilt from "react-parallax-tilt";
+
 import {
   AiFillGithub,
   AiFillInstagram,
