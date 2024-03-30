@@ -8,9 +8,9 @@ const Contact = () => {
       className="w-full h-screen p-4 text-white " style={{ backgroundImage: `url(${bg6})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full" >
-      <div className="pb-8 mt-20"> 
-  <h3 className="text-4xl font-bold text-purple-100 border-b-4 border-purple-700 inline-block">
-    Contact
+      <div className="pb-8 mt-20 text-center"> 
+  <h3 className="text-4xl font-sans text-purple-100 inline-block text-center">
+    Contact Me
   </h3>
 </div>
 

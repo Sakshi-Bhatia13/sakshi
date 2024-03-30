@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./components/NavBar";
 import Home from "./components/Home";
-import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Contact from "./components/contact";

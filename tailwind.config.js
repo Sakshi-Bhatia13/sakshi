@@ -5,7 +5,7 @@ module.exports = {
     extend: {},
     fontFamily : {
       signature : ["Pacifico"],
-    }
+    },
   },
   plugins: [],
 }

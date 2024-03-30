@@ -36,7 +36,7 @@ const NavBar = ({ setActiveComponent }) => {
     <div className="flex justify-between items-center w-full h-20 px-4 bg-black text-white fixed">
       <div>
       <h1 className="text-5xl font-signature ml-2">
-  <span className="text-purple-600">S</span>akshi..
+  <span className="text-purple-600">S</span>akshi.
 </h1>
 
       </div>
@@ -66,12 +66,12 @@ const NavBar = ({ setActiveComponent }) => {
         </ul>
       )}
 
-      <div className="hidden md:flex justify-center items-center list-none">
+      <div className="hidden md:flex justify-center items-center list-none font-sans">
         {links.map(({ id, link }) => (
           <NavLinks
             key={id}
             link={link}
-            className="px-4 cursor-pointer capitalize font-medium font-family- text-white transition duration-300 hover:text-purple-600 hover:underline transform hover:scale-90 hover:text-4xl"
+            className="px-4 cursor-pointer capitalize text-xl font-family- text-white transition duration-300 hover:text-purple-600 hover:underline transform hover:scale-90 hover:text-4xl"
             onClick={() => setActiveComponent(link)} 
           />
         ))}

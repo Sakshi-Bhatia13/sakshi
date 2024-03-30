@@ -21,7 +21,7 @@
 //           alt="My Image"
 //           className="mt-4 mb-4 rounded-full max-w-xs"
 //           style={{ width: "200px", height: "auto" }} 
-//         />
+//         />                                                                                                                                     
 
 //         <p className="text-xl text-black">
 //         Greetings! I'm a prefinal Year student at IIIT Gwalior . With a  passion for technology, I specialize in crafting web applications using MERN Stack Developmemt.
