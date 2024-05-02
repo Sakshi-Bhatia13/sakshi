@@ -20,11 +20,11 @@ function Home2() {
             <p className="text-lg md:text-xl leading-relaxed">
               I am a Passionate Full Stack Web Developer while developing Projects with expertise in ReactJs and NodeJs.
               <br />
-              <br />I am fluent in Languages like
+              <br />I have a strong foundation in languages like
               <span className="font-bold text-purple-600"> C, C++, Javascript. </span>
               <br />
               <br />
-              My field of Interest's are building &nbsp;
+              My field of Interest's are building creative&nbsp;
               <span className="font-bold text-purple-600">web applications </span>
               and also my interest lies in  {" "}
               <span className="font-bold text-purple-600">Problem Solving. </span>
@@ -59,7 +59,7 @@ function Home2() {
               <FaLinkedinIn className="w-8 h-8" />
             </a>
             <a
-              href=""
+              href="https://www.instagram.com/sakshi.bhatia_?igsh=MWEyc3RjNXNpbzB5dQ%3D%3D&utm_source=qr"
               target="_blank"
               rel="noreferrer"
               className="mx-2 text-purple-600"

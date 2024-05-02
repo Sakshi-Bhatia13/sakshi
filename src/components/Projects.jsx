@@ -13,7 +13,7 @@ const Project = () => {
       id: 2,
       name: "WatchFulEye",
       description: "Built and implemented an automated system integrated with CCTV Systems to alarm appropriate authorities upon detecting violent behavior using ML Model in TFLite trained on RWF-2000 Dataset. Developed Flutter app for user Interface to alarm Authorities.",
-      githubLink: "https://github.com/Sakshi-Bhatia13/WatchFulEye"
+      githubLink: "https://github.com/Sakshi-Bhatia13/WatchfulEye"
     },
     {
       id: 3,
