@@ -32,7 +32,7 @@ const Home1 = () => {
           </motion.p>
           <div>
             <a
-              href="https://drive.google.com/file/d/1rnUkw1tkIr1WY2GUypKZ5BQ_5NVJg5qd/view?usp=sharing"
+              href="https://drive.google.com/file/d/1GDtupBwqKuSqyuKt6qYgP2e1UIwp_brr/view"
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-400 to-purple-900  cursor-pointer"
               target="_blank"
               rel="noopener noreferrer"
